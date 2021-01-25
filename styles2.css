@@ -1,0 +1,47 @@
+.container {
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.block-three{
+    background-image: url('./images/fam.jpeg');
+    padding: 75px 0;
+    background-size: cover;
+}
+
+.block-three-content .title-block{
+    display: flex;
+}
+
+.title-block h3{
+    margin: 0;
+    letter-spacing: -0.01em;
+    font-size: 30px;
+    line-height: 130%;
+    color: #fafafa;
+    font-family: Arial, Helvetica, cursive;
+}
+
+.items-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.items-box .item{
+    width: 350px;
+}
+
+.items-box .item img{
+    width: 100%;
+    height: 240px;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
